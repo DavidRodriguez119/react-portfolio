@@ -8,6 +8,9 @@
 /* Normal Text with Noto Sans */
 header {
     background-image: url("../assets/header-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     color: white;
     width: 100%;
     height: 25vh;

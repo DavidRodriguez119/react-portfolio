@@ -1,3 +1,37 @@
 #content{
     background-color: rgb(183, 235, 171);
+    height: 100%;
+    padding: 20px;
+}
+
+#picture{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.pageTitle{
+    margin: 10px;
+    font-size: 40px;
+}
+
+.content{
+    text-align: left;
+    align-items: center;
+}
+
+#image{
+    text-align: left;
+    margin: 20px;
+}
+
+#infoPicture img{
+    text-align: left;
+}
+
+p{
+    margin: 5px;
+    font-size: 22px;
+    padding:0 20px;
 }
