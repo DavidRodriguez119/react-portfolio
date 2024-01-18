@@ -47,6 +47,48 @@ form{
 label{
     margin: 15;
 }
+
 input{
     margin: 15px;
+}
+
+h2, h3{
+    font-family: 'Salsa', 'Noto Snas', 'Times New Roman';
+}
+
+h3{
+    font-size: larger;
+}
+
+p, ul, label{
+    font-family: 'Noto Snas', 'Salsa', 'Times New Roman';
+}
+
+ul{
+    margin: 25px;
+    margin-left: 80px;
+}
+
+#resumeContent{
+    margin-left: 30px;
+}
+
+input{
+    height: 30px;
+    border-radius: 5px;
+    width: 400px;
+}
+
+button{
+    height: 40px;
+    width: 80px;
+    margin: 20px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: rgb(2, 94, 2);
+    font-weight: bolder;
 }
