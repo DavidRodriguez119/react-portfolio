@@ -4,4 +4,4 @@ export default function Portfolio() {
         <h2 className='pageTitle'>Portfolio</h2>
       </div>
     );
-  }
+}

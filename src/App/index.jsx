@@ -5,6 +5,7 @@ import AboutMe from '../Pages/AboutMe';
 import Portfolio from '../Pages/Portfolio';
 import Contact from '../Pages/Contact';
 import Resume from '../Pages/Resume';
+import Footer from '../Footer';
 
 function App() {
   const [selectedOption, setSelectedOption] = useState(1);
@@ -16,7 +17,8 @@ function App() {
         {selectedOption === 2 && <Portfolio/>}
         {selectedOption === 3 && <Contact/>}
         {selectedOption === 4 && <Resume/>}
-     </div>
+        <Footer/>
+     </div>     
     </>
   )
 }
