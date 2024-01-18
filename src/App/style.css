@@ -35,3 +35,18 @@ p{
     font-size: 22px;
     padding:0 20px;
 }
+
+#download{
+    margin: 20px;
+}
+
+form{
+    margin: 15px;
+}
+
+label{
+    margin: 15;
+}
+input{
+    margin: 15px;
+}
