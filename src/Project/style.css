@@ -1,0 +1,7 @@
+.project{
+    height: 300px;
+    width: 500px;
+    background-color: darkblue;
+    margin: 20px;
+    border-radius: 10px;
+}

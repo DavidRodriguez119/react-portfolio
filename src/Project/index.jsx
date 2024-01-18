@@ -1,8 +1,13 @@
 import React from "react";
 import "./style.css";
 
-export default function Project() {
+export default function Project(props) {
     return(
-        <p></p>
+        <>
+        <div className="project" style={{
+        }}>
+            
+        </div>
+        </>
     )
 }
