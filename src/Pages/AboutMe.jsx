@@ -1,10 +1,11 @@
+import myPicture from "../assets/picture.jpg"
 export default function AboutMe() {
     return (
       <div>
             <h2 className='pageTitle'>About me</h2>
             <div id="infoPicture" className="content">
                 <div id='image'>
-                    <img src="src\assets\picture.jpg" alt="Picture - David Rodriguez" id='picture'/>
+                    <img src={myPicture} alt="Picture - David Rodriguez" id='picture'/>
                 </div>
                 <p>
                     My name is David Santiago Rodriguez, thank you for visiting my portafolio. I am a 23 year old Colombian, currently taking a coding bootcamp at the University of Toronto.
