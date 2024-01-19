@@ -92,3 +92,7 @@ button:hover{
     background-color: rgb(2, 94, 2);
     font-weight: bolder;
 }
+
+#enterMessage{
+    height: 80px;
+}
