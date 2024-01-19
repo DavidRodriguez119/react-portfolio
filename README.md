@@ -46,3 +46,4 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ![screenshot of the app](./src/assets/screenshot.png)
 
 ## Deployed Link
+https://dulcet-jelly-6f6d37.netlify.app/
