@@ -96,3 +96,7 @@ button:hover{
 #enterMessage{
     height: 80px;
 }
+
+#resumeLink{
+    color: darkgreen;
+}

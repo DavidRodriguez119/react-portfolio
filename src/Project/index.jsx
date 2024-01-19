@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import githubImg from "../assets/github.png"
 
 export default function Project(props) {
     return(
@@ -12,7 +13,7 @@ export default function Project(props) {
             }}>
                 <div id="projectContent">
                     <h3>{props.title}</h3>
-                    <a href={props.link}><img src="src\assets\github.png" alt="github logo" className="logo"/></a><br />
+                    <a href={props.link}><img src={githubImg} alt="github logo" className="logo"/></a><br />
                     <a href={props.deployed}>Deployed Link</a>
                 </div>
                 
